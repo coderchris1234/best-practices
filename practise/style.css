@@ -42,24 +42,35 @@ body{
     font-weight: bolder;
 }
 
-#main-section{
+.main-section{
     display: flex;
     border-bottom: black;
     background-color: whitesmoke;
     padding: 30px;
     width: auto;
+    /* transition: 300ms; */
 }
 
-#main-section :hover{
+.hospital{
+    border:1px solid #f68084;
+    border-radius: 10px;
+    margin-right: 20px;
+    padding: 20px;
+    transition: 300ms;
+}
+
+.hospital:hover{
     cursor: pointer;
     background-color: #f68084;
     color: #fff;
     text-shadow: 2px 2px 5px black;
-    transition: 2ms;
-    position: relative;
+    
+    
 }
 
-#main-section h1, h2, h3{
+
+
+.main-section h1, h2, h3{
     margin-left: 100px;
     font-size: 100%;
     text-shadow: black;
@@ -70,29 +81,23 @@ body{
 
 }
 
-#main-section p{
+.main-section p{
     font-style: italic;
     word-spacing: 10px;
     line-height: 1.5em;
     font-weight: bolder;
 }
 
-#hospitality{
-    border:1px solid #f68084;
-    border-radius: 10px;
-    margin-right: 20px;
-    padding: 20px;
-}
 
 
 
-#growth{
+.growth{
     border:1px solid #f68084;
     border-radius: 10px;
     padding: 20px;
 }
 
-#strength{
+.strength{
     border:1px solid #f68084;
     border-radius: 10px;
     margin-left: 20px;
